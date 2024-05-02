@@ -107,3 +107,7 @@ export function useChatGPT(clear: () => void) {
     return { exportedGeneratedCode, isLoading, generateUI, generatedCode, restart, setSelectedExport };
 
 }
+
+export default function Home1() {
+    return <>{/* nothing */}</>;
+  }
